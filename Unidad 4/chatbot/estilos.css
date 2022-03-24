@@ -1,0 +1,508 @@
+html {
+	font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+.icon-instagram {
+	background: #3F60A5;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.index li a{
+
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.index li{
+	display: inline-block;
+	text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.index li{
+	display: inline-block;
+	text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.index li a:hover{
+	background: #ef8354;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    height: 100vh;
+    /* 02 */
+    background-image: linear-gradient(to top, rgba(22, 101, 133, 0.486) 0%, hsla(273, 58%, 69%, 0.514) 100%), url(img/ec.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.hamburguer{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
+    /* 02 */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    /* 028 */
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0;
+    transform: translateX(110%);
+    transition:transform 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.spread{
+    transform: translateX(0);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Services */
+
+.subtitulo{
+    color: #9f8ad0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contenedor-servicio img{
+    width: 40%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.checklist-servicio{
+    width: 45%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.service{
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.number{
+    display: inline-block;
+    /* 02 */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: rgb(102, 25, 25);
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.g{
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(194, 177, 255, 0.75)),  #e6faff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.agregar-imagen{
+    width: 60%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.experts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont-expert img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.n-expert{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+
+footer{
+    background: #1e1bb3;
+    padding-bottom: 0.1px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color:#4c4ba2;
+}
+
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+}
+
